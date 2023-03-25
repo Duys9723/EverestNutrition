@@ -1,43 +1,43 @@
 [
 	{
 		"prodID": 1, 
-		"prodImg": "",
+		"prodImg": "ipre/18.jpg",
 		"prodName": " ESP",
 		"prodPrice": 42.99
 	},
 	{
 		"prodID": 2,
-		"prodImg": "",
+		"prodImg": "ipre/25.jpg",
 		"prodName": " Inhuman",
 		"prodPrice": 46.99
 	},
 	{
 		"prodID": 3,
-		"prodImg": " ",
+		"prodImg": "ipre/21.jpg",
 		"prodName": " Dust X",
 		"prodPrice": 44.99
 	},
 	{
 		"prodID": 4, 
-		"prodImg": "",
+		"prodImg": "ipre/92.jpg",
 		"prodName": " P.S.P",
 		"prodPrice": 55.99
 	},
 	{
 		"prodID": 5, 
-		"prodImg": "",
+		"prodImg": "ipre/16.jpg",
 		"prodName": " Mesomorph",
 		"prodPrice": 44.99
 	},
 		{
 		"prodID": 6, 
-		"prodImg": "",
+		"prodImg": "ipre/19.jpg",
 		"prodName": " Psychotic",
 		"prodPrice": 40.99
 	},
 		{
 		"prodID": 7, 
-		"prodImg": "",
+		"prodImg": "ipre/15.jpg",
 		"prodName": " Convict",
 		"prodPrice": 44.99
 	}

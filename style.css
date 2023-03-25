@@ -9,13 +9,13 @@ hr {    text-align: center;
 }
 
 .div1{
-    font-size: 1.5em;
+    font-size: 1.em;
     text-align: center;
     color: black;
 
   }
   .div2{
-    font-size: 1.3em;
+    font-size: 1.6em;
     text-align: center;
     color: black;
 
@@ -121,3 +121,4 @@ background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, F
   display: block;
   margin: auto;
 }
+

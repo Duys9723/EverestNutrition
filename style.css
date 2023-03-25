@@ -1,0 +1,123 @@
+
+h1 {text-align: center;}
+
+body{background-color: lightgreen;}
+
+hr {    text-align: center;
+		width: 80%;
+		background-color: black;
+}
+
+.div1{
+    font-size: 1.5em;
+    text-align: center;
+    color: black;
+
+  }
+  .div2{
+    font-size: 1.3em;
+    text-align: center;
+    color: black;
+
+  }
+ .div3{
+    font-size: 1.5em;
+    float: right;
+    width:70%;
+    color: black;
+  }
+
+img{
+    display: block;
+	margin: 0 auto;
+	transition: .3s;
+	}
+	
+.i1{
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+}
+.i3{
+    width:26%;
+    height:auto;
+	padding-left: 1%;
+	padding-right: 1%;
+	}
+body {
+background: #00b09b;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+	nav	{
+			font-size: 1.5em;
+		   	background-color: black;
+			border-style: ridge;
+			border-color: gray;	
+
+			}
+
+	nav a	{
+		   	color: black;
+		   	padding: 1px;
+			display: inline;
+			}
+
+	nav a:hover	{
+			background-color:yellow;
+			color: blue;
+			display: inline;
+			}
+
+.contact{
+	font-size: 1.5em;
+    float:left;
+    width:70%;
+    color: black;
+	margin-bottom: 5%;
+	padding-left: 15%;
+	padding-right: 1%;
+}
+
+.contact img{
+	   height: 100%;
+       width: 40%;
+}
+
+.map{
+	font-size: 1.5em;
+    float:left;
+    width:70%;
+    color: black;
+	padding-left: 15%;
+
+}
+.div5{
+    font-size: 1.2em;
+    float:left;
+    width:70%;
+    color: black;
+	margin-bottom: 5%;
+	padding-left: 1%;
+	padding-right: 1%;
+}
+ .tablea{
+	 font-size: 1.5em;
+  	padding-left: 4%;
+	padding-right: 1%;
+	width:90%;
+	height: 90%;
+
+ }
+ 
+ #prodtype{
+	 width: 250px;
+	 height: 25px;
+ }
+ 
+ video {
+  display: block;
+  margin: auto;
+}

@@ -1,0 +1,122 @@
+[
+	{
+		"prodID": 1, 
+		"prodImg": "",
+		"prodName": " Mens Multi-vitamin",
+		"prodPrice": 19.99
+	},
+	{
+		"prodID": 2, 
+		"prodImg": "",
+		"prodName": " women Multi-vitamin",
+		"prodPrice": 19.99
+	},
+	{
+		"prodID": 3,
+		"prodImg": "",
+		"prodName": " ZMA",
+		"prodPrice": 38.99
+	},
+	{
+		"prodID": 4,
+		"prodImg": "",
+		"prodName": " High-Tech Fish Oil",
+		"prodPrice": 28.99
+	},
+	{
+		"prodID": 5, 
+		"prodImg": "",
+		"prodName": " Vitamin D",
+		"prodPrice": 18.99
+	},
+	{
+		"prodID": 6, 
+		"prodImg": " ",
+		"prodName": " Milk Thistle",
+		"prodPrice": 29.99
+	},
+	{
+		"prodID": 7, 
+		"prodImg": "",
+		"prodName": " Gat Joint Support",
+		"prodPrice": 33.99
+	},
+	{
+		"prodID": 8, 
+		"prodImg": "",
+		"prodName": " Metabolic Zinc",
+		"prodPrice": 14.99
+	},
+	{
+		"prodID": 9, 
+		"prodImg": "",
+		"prodName": " Metabolic Magnesium",
+		"prodPrice": 14.99
+	},
+	{
+		"prodID": 10, 
+		"prodImg": "",
+		"prodName": " Metabolic Hair/Nails",
+		"prodPrice": 14.99
+	},
+	{
+		"prodID": 11, 
+		"prodImg": "",
+		"prodName": " Metabolic Tumeric",
+		"prodPrice": 20.99
+	},
+	{
+		"prodID": 12, 
+		"prodImg": "",
+		"prodName": " Metabolic Ashwagandha",
+		"prodPrice": 23.99
+	},
+	{
+		"prodID": 13, 
+		"prodImg": "",
+		"prodName": " Metabolic Elderberry",
+		"prodPrice": 19.99
+	},
+	{
+		"prodID": 14, 
+		"prodImg": "",
+		"prodName": " High-Tech NAC",
+		"prodPrice": 22.99
+	},
+	{
+		"prodID": 15, 
+		"prodImg": "",
+		"prodName": " Metabolic Relaxitrol",
+		"prodPrice": 39.99
+	},
+	{
+		"prodID": 16, 
+		"prodImg": "",
+		"prodName": "  Maxzorb Probiotic",
+		"prodPrice": 44.99
+	},
+	{
+		"prodID": 17, 
+		"prodImg": "",
+		"prodName": "  Maxzorb Cleanse",
+		"prodPrice": 33.99
+	},
+	{
+		"prodID": 18, 
+		"prodImg": "",
+		"prodName": "  PCT",
+		"prodPrice": 34.99
+	},
+	{
+		"prodID": 19, 
+		"prodImg": "",
+		"prodName": " 5% Dim",
+		"prodPrice": 30.99
+	},
+	{
+		"prodID": 20, 
+		"prodImg": "",
+		"prodName": " 5% Digestive",
+		"prodPrice": 69.99
+	}
+	]

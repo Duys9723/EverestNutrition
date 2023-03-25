@@ -1,0 +1,62 @@
+[
+	{
+		"prodID": 1, 
+		"prodImg": "",
+		"prodName": " Liquid L-carnitine",
+		"prodPrice": 33.99
+	},
+	{
+		"prodID": 2, 
+		"prodImg": "",
+		"prodName": " High-Tech CLA",
+		"prodPrice": 24.99
+	},
+	{
+		"prodID": 3,
+		"prodImg": "",
+		"prodName": " Codemned Thyrogenic",
+		"prodPrice": 45.99
+	},
+	{
+		"prodID": 4,
+		"prodImg": "",
+		"prodName": " Finalflex PX",
+		"prodPrice": 44.99
+	},
+	{
+		"prodID": 5, 
+		"prodImg": "",
+		"prodName": " Codemned Arsynist",
+		"prodPrice": 44.99
+	},
+	{
+		"prodID": 6, 
+		"prodImg": " ",
+		"prodName": " Metabolic Synedrex",
+		"prodPrice": 55.99
+	},
+	{
+		"prodID": 7, 
+		"prodImg": "",
+		"prodName": " Metabolic Thyrene",
+		"prodPrice": 39.99
+	},
+		{
+		"prodID": 8, 
+		"prodImg": "",
+		"prodName": " Metabolic Insulean",
+		"prodPrice": 39.99
+	},
+		{
+		"prodID": 9, 
+		"prodImg": "",
+		"prodName": " Metabolic Apple Cider",
+		"prodPrice": 20.99
+	},
+		{
+		"prodID": 10, 
+		"prodImg": "",
+		"prodName": " Metabolic Hydravax",
+		"prodPrice": 31.99
+	}
+	]

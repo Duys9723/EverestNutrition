@@ -1,0 +1,20 @@
+[
+	{
+		"prodID": 1, 
+		"prodImg": "",
+		"prodName": " Metabolic pump",
+		"prodPrice": 34.99
+	},
+	{
+		"prodID": 2, 
+		"prodImg": "",
+		"prodName": " AfterDark",
+		"prodPrice": 42.99
+	},
+	{
+		"prodID": 3,
+		"prodImg": "",
+		"prodName": " Carnage Pump",
+		"prodPrice": 41.99
+	}
+	]

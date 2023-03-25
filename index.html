@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Everest Nutrition & Fitness Gym</title>
+<link rel="stylesheet" href="style.css">
+</head>
+		
+<h1>Everest Nutrition & Fitness Gym</h1>
+
+<div id ="menu" style="text-align: center; width: 100%">
+                <nav>
+                <a href = "index.html" style="color: green; font-size: 1.1em;">Home</a>
+                &nbsp;
+				<a href = "product.html" style="color: green; font-size: 1.1em;">Products</a>
+                &nbsp;
+                <a href = "contact.html" style="color: green; font-size: 1.1em;">Contact Us</a>
+                &nbsp;
+				<a href = "about.html" style="color: green; font-size: 1.1em;">About Us</a>
+                &nbsp;
+                </nav>
+        </div>   
+		<br>
+<div class="div1">
+We are a supplement shop/gym located in Arlington Texas. We carry a variety of products
+like vitamins, pre-workout, and protein.
+</div>
+<br>
+<div class="div1">
+What we have to offer
+<br>
+Supplement!
+<br>
+</div>
+<img src="i/ti1.jpg" id="image" width="auto" height="auto">
+
+<div class="div1">
+<br>
+Gym!
+</div>
+
+<video width="20%" height="5%" autoplay loop muted>
+  <source src="i/gym.mov" type="video/mp4">
+</video>
+
+<script type="text/javascript">
+	let image = document.getElementById('image');
+	let images = ['i/ti2.jpg','i/ti3.jpg','i/ti4.jpg']
+	setInterval(function(){
+		let random = Math.floor(Math.random() * 3);
+		image.src = images[random];
+		}, 2500);
+</script>
+ 
+ </html>

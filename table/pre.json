@@ -1,0 +1,44 @@
+[
+	{
+		"prodID": 1, 
+		"prodImg": "",
+		"prodName": " ESP",
+		"prodPrice": 42.99
+	},
+	{
+		"prodID": 2,
+		"prodImg": "",
+		"prodName": " Inhuman",
+		"prodPrice": 46.99
+	},
+	{
+		"prodID": 3,
+		"prodImg": " ",
+		"prodName": " Dust X",
+		"prodPrice": 44.99
+	},
+	{
+		"prodID": 4, 
+		"prodImg": "",
+		"prodName": " P.S.P",
+		"prodPrice": 55.99
+	},
+	{
+		"prodID": 5, 
+		"prodImg": "",
+		"prodName": " Mesomorph",
+		"prodPrice": 44.99
+	},
+		{
+		"prodID": 6, 
+		"prodImg": "",
+		"prodName": " Psychotic",
+		"prodPrice": 40.99
+	},
+		{
+		"prodID": 7, 
+		"prodImg": "",
+		"prodName": " Convict",
+		"prodPrice": 44.99
+	}
+	]

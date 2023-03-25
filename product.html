@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset = "utf-8">
+		<title> Everest Nutrition & Fitness Gym Products</title>
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="prodTable.css">
+		
+	</head>
+	
+	
+		<body>
+		<h1> Everest Nutrition & Fitness Gym</h1>
+		<h1 style="text-size: .8em">Our Products</h1>
+		<div id ="menu" style="text-align: center; width: 100%">
+                <nav>
+                <a href = "index.html" style="color: green; font-size: 1.1em;">Home</a>
+                &nbsp;
+				<a href = "product.html" style="color: green; font-size: 1.1em;">Products</a>
+                &nbsp;
+                <a href = "contact.html" style="color: green; font-size: 1.1em;">Contact Us</a>
+                &nbsp;
+				<a href = "about.html" style="color: green; font-size: 1.1em;">About Us</a>
+                &nbsp;
+                </nav>
+        </div>   
+		<br>
+		
+		<div class="div2">
+		(Select category and click update to show item)
+		<br>
+		<select id="prodtype" onchange="changetable();">
+			<option value="">Please choose product category</option>
+			<option value="protein">Protein</option>
+			<option value="pre">Pre-Workout</option>
+			<option value="bcaa">BCAA</option>
+			<option value="pump">Pump</option>
+			<option value="post">Post</option>
+			<option value="vitamin">Vitamin</option>
+			<option value="fat">Fat Burner</option>
+		</select>
+		
+		<input type="submit" value="update" onclick = "loadtable();">
+		</div>
+		
+		<form action="#" style="text-align: center">
+		<div style="text-align: center; width: 100%;">
+		<br>
+		<p>
+		<table id = "tblProd" align="center">
+			<thead>
+				<tr>
+					<th><a id="sortID" href="javascript:sortByID( )" style="text-decoration-line: underline; color: brown;">Product ID</a></th>
+					<th><a></a></th>
+					<th><a id="sortName" href="javascript:sortByName( )" style="text-decoration-line: underline; color: brown">Product Name</a></th>
+					<th><a id="sortPrice" href="javascript:sortByPrice( )" style="text-decoration-line: underline; color: brown">Product Price</a></th>
+			</thead>
+					(Click a Column Heading to Sort)
+			<tbody id = "tbodyRows" style="color: black;">
+			</tbody>
+		</table>
+		</p>
+		</div>			
+		</form>
+		
+		<script src="main.js"></script>
+	</body>
+			
+
+</html>

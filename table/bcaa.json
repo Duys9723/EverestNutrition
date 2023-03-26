@@ -1,0 +1,38 @@
+[
+	{
+		"prodID": 1,
+		"prodImg": "ibcaa/34.JPG",
+		"prodName": " Mutant BCAA",
+		"prodPrice": 34.99
+	},
+	{
+		"prodID": 2,
+		"prodImg": "ibcaa/36.JPG",
+		"prodName": " Finalflex BCAA",
+		"prodPrice": 25.99
+	},
+	{
+		"prodID": 3, 
+		"prodImg": "",
+		"prodName": " Primal labs EAA",
+		"prodPrice": 35.99
+	},
+	{
+		"prodID": 4, 
+		"prodImg": " ",
+		"prodName": " Mutant Geaar",
+		"prodPrice": 35.99
+	},
+	{
+		"prodID": 5, 
+		"prodImg": "ibcaa/56.JPG",
+		"prodName": " Iron BCAA",
+		"prodPrice": 35.99
+	},
+		{
+		"prodID": 6, 
+		"prodImg": "ibcaa/31.JPG",
+		"prodName": " Metabolic Tri-prep",
+		"prodPrice": 35.99
+	}
+	]

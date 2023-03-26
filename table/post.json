@@ -1,0 +1,20 @@
+[	
+	{
+		"prodID": 1, 
+		"prodImg": "ipost/29.JPG",
+		"prodName": " High-Tech Creatine",
+		"prodPrice": 35.99
+	},
+	{
+		"prodID": 2, 
+		"prodImg": "ipost/26.JPG",
+		"prodName": " Metabolic C.G.P",
+		"prodPrice": 37.99
+	},
+	{
+		"prodID": 3, 
+		"prodImg": "ipost/90.JPG",
+		"prodName": " Karbolyn",
+		"prodPrice": 40.99
+	}
+]

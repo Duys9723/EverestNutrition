@@ -1,0 +1,32 @@
+[
+	{
+		"prodID": 1, 
+		"prodImg": "",
+		"prodName": " Mutant Mass",
+		"prodPrice": 46.99
+	},
+	{
+		"prodID": 2,
+		"prodImg": "",
+		"prodName": " Precision",
+		"prodPrice": 44.99
+	},
+	{
+		"prodID": 3,
+		"prodImg": "",
+		"prodName": " Mutant Iso-surge",
+		"prodPrice": 37.99
+	},
+	{
+		"prodID": 4, 
+		"prodImg": "",
+		"prodName": " Musclean",
+		"prodPrice": 51.99
+	},
+	{
+		"prodID": 5, 
+		"prodImg": " ",
+		"prodName": " Black magic whey",
+		"prodPrice": 44.99
+	}
+	]

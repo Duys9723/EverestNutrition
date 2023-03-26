@@ -1,0 +1,68 @@
+[
+	{
+		"prodID": 1, 
+		"prodImg": "ipre/18.JPG",
+		"prodName": " ESP",
+		"prodPrice": 42.99
+	},
+	{
+		"prodID": 2,
+		"prodImg": "ipre/25.JPG",
+		"prodName": " Inhuman",
+		"prodPrice": 46.99
+	},
+	{
+		"prodID": 3,
+		"prodImg": "ipre/21.JPG",
+		"prodName": " Dust X",
+		"prodPrice": 44.99
+	},
+	{
+		"prodID": 4, 
+		"prodImg": "ipre/92.JPG",
+		"prodName": " P.S.P",
+		"prodPrice": 55.99
+	},
+	{
+		"prodID": 5, 
+		"prodImg": "ipre/16.JPG",
+		"prodName": " Mesomorph",
+		"prodPrice": 44.99
+	},
+		{
+		"prodID": 6, 
+		"prodImg": "ipre/19.JPG",
+		"prodName": " Psychotic",
+		"prodPrice": 40.99
+	},
+		{
+		"prodID": 7, 
+		"prodImg": "ipre/15.JPG",
+		"prodName": " Convict",
+		"prodPrice": 44.99
+	},
+	{
+		"prodID": 8, 
+		"prodImg": "ipre/17.JPG",
+		"prodName": " Mental Fock",
+		"prodPrice": 40.99
+	},
+	{
+		"prodID": 9, 
+		"prodImg": "ipre/42.JPG",
+		"prodName": " Finaflex Yohimbe",
+		"prodPrice": 40.99
+	},
+	{
+		"prodID": 10, 
+		"prodImg": "ipre/43.JPG",
+		"prodName": " Finaflex Caffeine",
+		"prodPrice": 40.99
+	},
+	{
+		"prodID": 11, 
+		"prodImg": "ipre/49.JPG",
+		"prodName": " Finaflex Beta Alanine",
+		"prodPrice": 40.99
+	}
+	]

@@ -112,14 +112,21 @@ background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, F
 
  }
  
+ #updatebt{
+	 font-size: .9em;
+	 width: 150px;
+	 height: 30px;
+ }
+ 
  #prodtype{
-	 font-size: 1.em;
-	 width: 250px;
-	 height: 25px;
+	 font-size: .9em;
+	 width: 360px;
+	 height: 30px;
  }
  
  video {
   display: block;
   margin: auto;
 }
+
 

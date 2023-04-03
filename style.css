@@ -52,6 +52,8 @@ hr {
 .containerone img{
 	border-radius: 30%;
 	transition: .3s;
+	height: auto;
+    width: 150%;
 	}
 .i3{
     width:20%;

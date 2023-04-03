@@ -11,23 +11,23 @@
 	
 		<body>
 		<h1> Everest Nutrition & Fitness Gym</h1>
-		<h1 style="text-size: .8em">Our Products</h1>
+		<h1>Our Products</h1>
 		<div id ="menu" style="text-align: center; width: 100%">
                 <nav>
-                <a href = "index.html" style="color: green; font-size: 1.1em;">Home</a>
+                <a href = "index.html">Home</a>
                 &nbsp;
-				<a href = "product.html" style="color: green; font-size: 1.1em;">Products</a>
+				<a href = "product.html">Products</a>
                 &nbsp;
-                <a href = "contact.html" style="color: green; font-size: 1.1em;">Contact Us</a>
+                <a href = "contact.html">Contact Us</a>
                 &nbsp;
-				<a href = "about.html" style="color: green; font-size: 1.1em;">About Us</a>
+				<a href = "about.html">About Us</a>
                 &nbsp;
                 </nav>
         </div>   
 		<br>
 		
 		<div class="div2">
-		(Select category and click update to show item)
+		(Select category and click filter to show item)
 		<br>
 		<select id="prodtype" onchange="changetable();">
 			<option value="">Please choose product category</option>
@@ -39,7 +39,7 @@
 			<option value="vitamin">Vitamin</option>
 			<option value="fat">Fat Burner</option>
 		</select>
-		<input id="updatebt" type="submit" value="update" onclick = "loadtable();">
+		<input id="updatebt" type="submit" value="Filter" onclick = "loadtable();">
 		<br>
 		<p>
 		<table id = "tblProd" align="center">

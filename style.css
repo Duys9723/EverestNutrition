@@ -52,18 +52,13 @@ hr {
 .containerone img{
 	border-radius: 30%;
 	transition: .3s;
+	width: 150%;
+	height: auto;
 	}
-	
-.i1{
-	width: 700px;
-	height: 400px;
-	margin: 0 auto;
-}
 .i3{
-    width:14%;
-    height:10%;
+    width:20%;
+    height:auto%;
 	padding-left: 1%;
-	padding-right: 1%;
 	}
 
 body {
@@ -114,7 +109,7 @@ body {
 
 }
 .div5{
-    font-size: 1.5em;
+    font-size: 1.3em;
     float:left;
     color: black;
 	padding-left: 1%;

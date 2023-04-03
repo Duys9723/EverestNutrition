@@ -8,12 +8,18 @@ var sortOrder = "D" ;
 
 var table = ""
 
+prodRequest = new XMLHttpRequest( ) ;
 
+
+prodRequest.open("GET", "table/all.json") ;
+
+
+prodRequest.send( ) ;
 
 
 
 function changetable(){
-	switch (prodtype.value) {
+		switch (prodtype.value) {
 		case "protein":
 		prodRequest = new XMLHttpRequest( ) ;
 		prodRequest.open("GET", "table/protein.json");
@@ -56,34 +62,24 @@ function changetable(){
 		prodRequest.send() ;
 		break;
 }
-	
-	
-	
-	
-	
-	
-	/*
-	if (prodtype.value == "protein"){
-		prodRequest = new XMLHttpRequest( ) ;
-		prodRequest.open("GET", "protein.json");
-		prodRequest.send() ;
-	}
-	else if (prodtype.value == "pre"){
-		prodRequest = new XMLHttpRequest( ) ;
-		prodRequest.open("GET", "pre.json");
-		prodRequest.send() ;
-}
-*/
+
 }
 
 function loadtable()
 {
 	prodData = JSON.parse(prodRequest.responseText) ;
+	renderTable(prodData) ;
+}
+
+prodRequest.onload = function( )
+
+{
+
+	prodData = JSON.parse(prodRequest.responseText) ;
 
 	renderTable(prodData) ;
 
 }
-	
 
 function renderTable(data)
     {

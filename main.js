@@ -9,13 +9,8 @@ var sortOrder = "D" ;
 var table = ""
 
 prodRequest = new XMLHttpRequest( ) ;
-
-
 prodRequest.open("GET", "table/all.json") ;
-
-
 prodRequest.send( ) ;
-
 
 
 function changetable(){
@@ -73,13 +68,25 @@ function loadtable()
 
 prodRequest.onload = function( )
 {
-
 	prodData = JSON.parse(prodRequest.responseText) ;
 
-	renderTable(prodData) ;
+	firsttable(prodData) ;
 
 }
 
+function firsttable(data)
+    {
+        var prodRowData = "";
+
+        for (i = 0; i<data.length; i++)
+            {
+                prodRowData += "<tr><td id='prodID"+i+"'>" + data[i].prodID + "</td><td>" + "<img src=" +data[i].prodImg+ ">" + "</td><td id='prodName"+i+"'>" + data[i].prodName;
+			}
+
+			
+	    prodRows.innerHTML = prodRowData ;
+    }
+	
 function renderTable(data)
     {
         var prodRowData = "";

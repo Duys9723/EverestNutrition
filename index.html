@@ -1,67 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simple HTML HomePage</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Everest Nutrition & Fitness Gym</title>
+<link rel="stylesheet" href="style.css">
 </head>
+		
+<h1>Everest Nutrition & Fitness Gym</h1>
 
-<body>
-  <header class="header">
-    <a href="#" class="logo">Everest Nutrition</a>
-    <nav class="nav-items">
-        <a href = "index.html">Home</a>
-        &nbsp;
-		<a href = "product.html">Products</a>
-        &nbsp;
-        <a href = "contact.html">Contact Us</a>
-        &nbsp;
-		<a href = "about.html">About Us</a>
-        &nbsp;
-    </nav>
-  </header>
-  <main>
-    <div class="intro">
-      <h1>Climbing toward your goal</h1>
-      <p>We are a supplment and gym</p>
-      <button>Learn More</button>
-    </div>
-    <div class="services">
-      <div class="type">
-        <p class="type-heading">product</p>
-        <p class="type-text">I have worked on many projects and I am very proud of them. I am a very good developer and I am always looking for new projects.</p>
-      </div>
+<div id ="menu" style="text-align: center; width: 100%">
+                <nav>
+                <a href = "index.html">Home</a>
+                &nbsp;
+				<a href = "product.html">Products</a>
+                &nbsp;
+                <a href = "contact.html">Contact Us</a>
+                &nbsp;
+				<a href = "about.html">About Us</a>
+                &nbsp;
+                </nav>
+        </div>   
+		<br>
+<br>
+<div class="containerone">
+Come check out our supplements
 
-      <div class="type">
-        <p class="type-heading">Gym</p>
-        <p class="type-text">I have a lot of network skills and I am very good at them. I am very good at networking and I am always looking for new network skills.</p>
-      </div>
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="bottom-links">
-      <div class="links">
-        <span>More Info</span>
-        <a href = "index.html">Home</a>
-        &nbsp;
-		<a href = "product.html">Products</a>
-        &nbsp;
-        <a href = "contact.html">Contact Us</a>
-        &nbsp;
-		<a href = "about.html">About Us</a>
-        &nbsp;
-      </div>
-      <div class="links">
-        <span>Social Links</span>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
-    </div>
-  </footer>
-</body>
+<img src="i/ti1.jpg" id="timage">
+</div>
 
-</html>
+<hr>
+
+<div class="containertwo">
+<video width="100%" height="100%" autoplay loop muted>
+  <source src="i/gym.mp4" type="video/mp4">
+</video>
+
+We also have a gym as well
+</div>
+
+
+
+<script type="text/javascript">
+	let image = document.getElementById('timage');
+	let images = ['i/4.JPG','i/7.JPG','i/8.JPG','i/9.JPG','i/10.JPG']
+	setInterval(function(){
+		let random = Math.floor(Math.random() * 3);
+		image.src = images[random];
+		}, 4000);
+</script>
+ 
+ </html>

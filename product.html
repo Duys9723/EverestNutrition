@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang = "en">
 	<head>
-		<meta charset = "utf-8">
-		<title> Everest Nutrition & Fitness Gym Products</title>
-		<link rel="stylesheet" type="text/css" href="prodTable.css">
-		<link rel="stylesheet" href="style.css">
+	<meta charset = "utf-8">
+	<title> Everest Nutrition & Fitness Gym Products</title>
+	<link rel="stylesheet" type="text/css" href="prodTable.css">
+	<link rel="stylesheet" href="style.css">
 	</head>
- <header class="header">
-    <a href="#" class="logo">Everest Nutrition</a>
-    <nav class="nav-items">
+	<header class="header">
+		<a href="#" class="logo">Everest Nutrition</a>
+	<nav class="nav-items">
         <a href = "index.html">Home</a>
         &nbsp;
 		<a href = "product.html">Products</a>
@@ -18,23 +18,24 @@
 		<a href = "about.html">About Us</a>
         &nbsp;
     </nav>
-  </header>
-		<div class="div2">
-		(Select category and click filter to show item)
-		<br>
-		<select id="prodtype" onchange="changetable();">
-			<option value="normal">Please choose product category</option>
-			<option value="protein">Protein</option>
-			<option value="pre">Pre-Workout</option>
-			<option value="bcaa">BCAA</option>
-			<option value="pump">Pump</option>
-			<option value="post">Post</option>
-			<option value="vitamin">Vitamin</option>
-			<option value="fat">Fat Burner</option>
-		</select>
-		<input id="updatebt" type="submit" value="Filter" onclick = "loadtable();">
-		<br>
-		<p>
+    </header>
+	<br>
+	<div class="div2">
+	(Select category and click filter to show item)
+	<br>
+	<select id="prodtype" onchange="changetable();">
+		<option value="normal">Please choose category</option>
+		<option value="protein">Protein</option>
+		<option value="pre">Pre-Workout</option>
+		<option value="bcaa">BCAA</option>
+		<option value="pump">Pump</option>
+		<option value="post">Post</option>
+		<option value="vitamin">Vitamin</option>
+		<option value="fat">Fat Burner</option>
+	</select>
+	<input id="updatebt" type="submit" value="Filter" onclick = "loadtable();">
+	<br>
+	<p>
 		<table id = "tblProd" align="center">
 			<thead>
 				<tr>
@@ -43,17 +44,18 @@
 					<th><a id="sortName" href="javascript:sortByName( )" style="text-decoration-line: underline; color: brown">Product Name</a></th>
 					<th><a id="sortPrice" href="javascript:sortByPrice( )" style="text-decoration-line: underline; color: brown">Product Price</a></th>
 			</thead>
-					(Click a Column Heading to Sort)
+				(Click a Column Heading to Sort)
 			<tbody id = "tbodyRows" style="color: black;">
 			</tbody>
 		</table>
-		</p>
-		</div>			
-		 <footer class="footer">
-		<div class="bottom-links">
-		<div class="links">
-        <span>More Info</span>
-        <a href = "index.html">Home</a>
+	</p>
+	
+	</div>			
+	<footer class="footer">
+	<div class="bottom-links">
+	<div class="links">
+    <span>More Info</span>
+		<a href = "index.html">Home</a>
         &nbsp;
 		<a href = "product.html">Products</a>
         &nbsp;
@@ -61,18 +63,15 @@
         &nbsp;
 		<a href = "about.html">About Us</a>
         &nbsp;
-		</div>
-      <div class="links">
-        <span>Social Links</span>
-        <a href="#"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fab fa-twitter"></i></a>
-        <a href="#"><i class="fab fa-instagram"></i></a>
-      </div>
+	</div>
+    <div class="links">
+		<span>Social Links</span>
+		<a href="#"><i class="fab fa-facebook"></i></a>
+		<a href="#"><i class="fab fa-twitter"></i></a>
+		<a href="#"><i class="fab fa-instagram"></i></a>
     </div>
-  </footer>
-		<script src="main.js"></script>
-		
+    </div>
+    </footer>
+	<script src="main.js"></script>	
 	</body>
-			
-
 </html>

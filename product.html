@@ -3,34 +3,28 @@
 	<head>
 		<meta charset = "utf-8">
 		<title> Everest Nutrition & Fitness Gym Products</title>
-		<link rel="stylesheet" href="style.css">
 		<link rel="stylesheet" type="text/css" href="prodTable.css">
-		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
 	</head>
-	
-	
-		<body>
-		<h1> Everest Nutrition & Fitness Gym</h1>
-		<h1>Our Products</h1>
-		<div id ="menu" style="text-align: center; width: 100%">
-                <nav>
-                <a href = "index.html">Home</a>
-                &nbsp;
-				<a href = "product.html">Products</a>
-                &nbsp;
-                <a href = "contact.html">Contact Us</a>
-                &nbsp;
-				<a href = "about.html">About Us</a>
-                &nbsp;
-                </nav>
-        </div>   
-		<br>
-		
+ <header class="header">
+    <a href="#" class="logo">Everest Nutrition</a>
+    <nav class="nav-items">
+        <a href = "index.html">Home</a>
+        &nbsp;
+		<a href = "product.html">Products</a>
+        &nbsp;
+        <a href = "contact.html">Contact Us</a>
+        &nbsp;
+		<a href = "about.html">About Us</a>
+        &nbsp;
+    </nav>
+  </header>
 		<div class="div2">
 		(Select category and click filter to show item)
 		<br>
 		<select id="prodtype" onchange="changetable();">
-			<option value="">Please choose product category</option>
+			<option value="normal">Please choose product category</option>
 			<option value="protein">Protein</option>
 			<option value="pre">Pre-Workout</option>
 			<option value="bcaa">BCAA</option>
@@ -56,8 +50,29 @@
 		</table>
 		</p>
 		</div>			
-		
+		 <footer class="footer">
+		<div class="bottom-links">
+		<div class="links">
+        <span>More Info</span>
+        <a href = "index.html">Home</a>
+        &nbsp;
+		<a href = "product.html">Products</a>
+        &nbsp;
+        <a href = "contact.html">Contact Us</a>
+        &nbsp;
+		<a href = "about.html">About Us</a>
+        &nbsp;
+		</div>
+      <div class="links">
+        <span>Social Links</span>
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
 		<script src="main.js"></script>
+		
 	</body>
 			
 

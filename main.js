@@ -72,7 +72,6 @@ function loadtable()
 }
 
 prodRequest.onload = function( )
-
 {
 
 	prodData = JSON.parse(prodRequest.responseText) ;
